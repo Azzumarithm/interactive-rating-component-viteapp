@@ -39,7 +39,7 @@ const InteractiveRatingComponent = () => {
         <>
             <div className='main-container' style={{display: container1Display}}>
                 <div className='icon-star-container'>
-                    <img src="src\assets\icon-star.svg"  className='icon-star-img' alt=''/>
+                    <img src="./icon-star.svg"  className='icon-star-img' alt=''/>
                     
                 </div>
 
@@ -59,7 +59,7 @@ const InteractiveRatingComponent = () => {
 
             <div className='thanks-container' style={{display: container2Display}}>
                 <div className='phone-image grid-item'>
-                    <img className='phone'src="src\assets\illustration-thank-you.svg" alt=''/>
+                    <img className='phone'src="./illustration-thank-you.svg" alt=''/>
                 </div>
 
                 <SelectedRangeThanks selectedRatingNumber={selectedRatingNumber}/>
